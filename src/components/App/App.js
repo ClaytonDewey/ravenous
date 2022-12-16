@@ -20,7 +20,7 @@ const businesses = [business, business, business, business, business, business];
 class App extends React.Component {
   render() {
     return (
-      <div class="App">
+      <div className="App">
         <h1>ravenous</h1>
         <SearchBar />
         <BusinessList businesses={businesses} />
